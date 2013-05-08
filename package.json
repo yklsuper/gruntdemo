@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "grunt init demo",
+  "main": "asset/gd/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Yi Hui <konglin.ykl@taobao.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-cmd-transport": "~0.2.3",
+    "grunt-cmd-concat": "~0.2.2"
+  },
+  "spm": {
+    "plugins": [
+      "shim"
+    ],
+    "alias": {
+      "nav": "dist/styles/nav/nav"
+    }
+  }
+}
